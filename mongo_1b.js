@@ -77,7 +77,7 @@ MongoClient.connect("mongodb://127.0.0.1/cardb", function(err, db)
 								app.get('/about', function (req, res) 
 		  								  {  
    											console.log("Got a GET request for /about");  
-   											res.send('MSRIT, Dept. of CSE');  
+   											res.send('A portal for cars');  
 		  								  }
        								       )  
  
