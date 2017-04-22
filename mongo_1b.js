@@ -14,7 +14,7 @@ MongoClient.connect("mongodb://127.0.0.1/cardb", function(err, db)
 								app.get('/', function (req, res) 
 									     {  
    											console.log("Got a GET request for the homepage");  
-   											res.send('<h1>Welcome to MSRIT</h1>');  
+   											res.send('<h1>Welcome to Car Portal</h1>');  
 									     }
 								       )
   								app.get('/index1b.html', function (req, res) 
